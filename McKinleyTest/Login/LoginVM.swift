@@ -52,8 +52,7 @@ class LoginVM {
                 UserDefaults.standard.setValue(response.token, forKey: Constants.token)
                 self?.loginHandler(.success(_token: response.token))
             case .failure(let error):
-                self?.loginHandler(.failure(error.localizedDescription))
-                
+                self?.loginHandler(.failure(error.value()))
             }
         }
     }
