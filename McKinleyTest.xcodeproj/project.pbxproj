@@ -20,7 +20,7 @@
 		D9EE68CC241E622000F185EB /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68CA241E622000F185EB /* LoginVM.swift */; };
 		D9EE68CE241E652B00F185EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68CD241E652B00F185EB /* Extensions.swift */; };
 		D9EE68D0241E665300F185EB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68CF241E665300F185EB /* APIClient.swift */; };
-		D9EE68D2241E676C00F185EB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68D1241E676C00F185EB /* Model.swift */; };
+		D9EE68D2241E676C00F185EB /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68D1241E676C00F185EB /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		D9EE68CA241E622000F185EB /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		D9EE68CD241E652B00F185EB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D9EE68CF241E665300F185EB /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		D9EE68D1241E676C00F185EB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D9EE68D1241E676C00F185EB /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,7 @@
 		D9279C08241FEE8300FBDA60 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				D9EE68D1241E676C00F185EB /* LoginModel.swift */,
 				D9EE68C9241E621F00F185EB /* LoginVC.swift */,
 				D9EE68CA241E622000F185EB /* LoginVM.swift */,
 			);
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				D9EE68CF241E665300F185EB /* APIClient.swift */,
-				D9EE68D1241E676C00F185EB /* Model.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 				D9EE68CB241E622000F185EB /* LoginVC.swift in Sources */,
 				D9EE68B8241E618100F185EB /* SceneDelegate.swift in Sources */,
 				D9EE68CC241E622000F185EB /* LoginVM.swift in Sources */,
-				D9EE68D2241E676C00F185EB /* Model.swift in Sources */,
+				D9EE68D2241E676C00F185EB /* LoginModel.swift in Sources */,
 				D9279C07241FC8A600FBDA60 /* CustomTextField.swift in Sources */,
 				D9279C0E241FFF2300FBDA60 /* Constants.swift in Sources */,
 			);
