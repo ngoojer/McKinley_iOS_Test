@@ -13,7 +13,7 @@ import KRProgressHUD
 
 class WebViewController: UIViewController {
     static let storybordId  = "WebViewController"
-    
+
     @IBOutlet weak var webView: WKWebView!
     var token:String
     
