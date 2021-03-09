@@ -10,6 +10,7 @@
 		6A329454BFC6F96418268C5C /* Pods_McKinleyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8745A89C70761693E5672A6B /* Pods_McKinleyTest.framework */; };
 		D9279C07241FC8A600FBDA60 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9279C06241FC8A600FBDA60 /* CustomTextField.swift */; };
 		D9279C0E241FFF2300FBDA60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9279C0D241FFF2300FBDA60 /* Constants.swift */; };
+		D942C7CE247F9CAF009B7B85 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = D942C7CD247F9CAF009B7B85 /* ExportOptions.plist */; };
 		D9EE68B6241E618100F185EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68B5241E618100F185EB /* AppDelegate.swift */; };
 		D9EE68B8241E618100F185EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68B7241E618100F185EB /* SceneDelegate.swift */; };
 		D9EE68BA241E618100F185EB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE68B9241E618100F185EB /* WebViewController.swift */; };
@@ -29,6 +30,7 @@
 		9BB287A34DB15E63F5FE1769 /* Pods-McKinleyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McKinleyTest.debug.xcconfig"; path = "Target Support Files/Pods-McKinleyTest/Pods-McKinleyTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D9279C06241FC8A600FBDA60 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		D9279C0D241FFF2300FBDA60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D942C7CD247F9CAF009B7B85 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		D9EE68B2241E618100F185EB /* McKinleyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McKinleyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EE68B5241E618100F185EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9EE68B7241E618100F185EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		D9EE68A9241E618100F185EB = {
 			isa = PBXGroup;
 			children = (
+				D942C7CD247F9CAF009B7B85 /* ExportOptions.plist */,
 				D9EE68B4241E618100F185EB /* McKinleyTest */,
 				D9EE68B3241E618100F185EB /* Products */,
 				AE759C16618B256DCA3DCDE6 /* Pods */,
@@ -215,6 +218,7 @@
 				D9EE68C2241E618600F185EB /* LaunchScreen.storyboard in Resources */,
 				D9EE68BF241E618600F185EB /* Assets.xcassets in Resources */,
 				D9EE68BD241E618100F185EB /* Main.storyboard in Resources */,
+				D942C7CE247F9CAF009B7B85 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch
+        
+//  func AverageMarks(mark:Int...) -> Int {
+//        var total = 0
+//        for n in mark {
+//        total += n
+//        }
+//        return total / mark.count
+//        }
+//
+//        let r = AverageMarks(mark: 10,20,30)
+        
         return true
     }
 
