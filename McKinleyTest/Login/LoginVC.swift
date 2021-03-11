@@ -34,6 +34,8 @@ class LoginVC: UIViewController {
         UIApplication.shared.statusBarUIView?.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
         self.txtEmail.text = "eve.holt@reqres.in"
         self.view.backgroundColor = .red
+        
+        //update
     }
     
     override func viewWillAppear(_ animated: Bool) {
