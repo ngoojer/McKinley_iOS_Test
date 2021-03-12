@@ -39,7 +39,8 @@ platform :ios do
 
 	desc "Push a new beta build to TestFlight"
 	lane :beta do
-	      upload_to_testflight
+	      upload_to_testflight(ipa: "./fastlane/builds/McKinleyTest.ipa")
+
 	end
 
 end
