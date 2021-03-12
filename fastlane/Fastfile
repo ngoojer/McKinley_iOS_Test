@@ -37,7 +37,8 @@ platform :ios do
 	  build_app
 	end
 
-	desc "upload to TestFlight"
+	# increment and upload
+	desc "upload to TestFlight" 
 	lane :upload_beta do
 	  increment_build
  	  upload_to_testflight
