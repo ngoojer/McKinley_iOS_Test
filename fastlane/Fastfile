@@ -37,11 +37,16 @@ platform :ios do
 	  build_app
 	end
 	
-desc "Push a new beta build to TestFlight"
-lane :beta do
-  increment_build
-  upload_to_testflight
-end
+	desc "upload to Test Flight"
+	lane :upload_beta do
+	    pilot(ipa: "./fastlane/builds/McKinleyTest.ipa")
+	end
+
+	desc "Push a new beta build to TestFlight"
+	lane :beta do
+  	increment_build
+  	upload_beta
+	end
 
 end
 
