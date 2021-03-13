@@ -19,7 +19,7 @@ platform :ios do
 
 	desc "crete application"
 	lane :create_app do
-	  produce
+	  produce(app_identifier: 'com.personel.McFastDev', app_name: 'McFastDev')
 	end
 
 	desc "Build application"
