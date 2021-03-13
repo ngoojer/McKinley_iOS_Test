@@ -18,10 +18,6 @@ default_platform(:ios)
 platform :ios do
 
 increment_build
- 	 desc "Create app on Apple Developer and App Store Connect sites"
-  	lane :create_app do
-​  	  produce
-  	end
 
   	desc "Take screenshots"
 	lane :screenshots do
@@ -29,6 +25,11 @@ increment_build
  	 frame_screenshots(white: true)
  	 upload_to_app_store
 	end
+
+ 	 desc "Create app on Apple Developer and App Store Connect sites"
+  	lane :create_app do
+​  	  produce
+  	end
 
      desc "Incrementing Build Number"
       lane :increment_build do
