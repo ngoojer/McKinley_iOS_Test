@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9EE68B1241E618100F185EB"
-               BuildableName = "McKinleyTest.app"
+               BuildableName = "McFastDev.app"
                BlueprintName = "McKinleyTest"
                ReferencedContainer = "container:McKinleyTest.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9EE68B1241E618100F185EB"
-            BuildableName = "McKinleyTest.app"
+            BuildableName = "McFastDev.app"
             BlueprintName = "McKinleyTest"
             ReferencedContainer = "container:McKinleyTest.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9EE68B1241E618100F185EB"
-            BuildableName = "McKinleyTest.app"
+            BuildableName = "McFastDev.app"
             BlueprintName = "McKinleyTest"
             ReferencedContainer = "container:McKinleyTest.xcodeproj">
          </BuildableReference>
