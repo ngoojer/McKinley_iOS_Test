@@ -26,6 +26,11 @@ Take screenshots
 fastlane ios increment_build
 ```
 Incrementing Build Number
+### ios build
+```
+fastlane ios build
+```
+Build application
 ### ios beta
 ```
 fastlane ios beta

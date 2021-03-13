@@ -17,6 +17,12 @@ default_platform(:ios)
 
 platform :ios do
 
+increment_build
+ 	 desc "Create app on Apple Developer and App Store Connect sites"
+  	lane :create_app do
+​  	  produce
+  	end
+
   	desc "Take screenshots"
 	lane :screenshots do
  	 capture_screenshots
@@ -39,7 +45,7 @@ platform :ios do
 
 	desc "Push a new beta build to TestFlight"
 	lane :beta do
-	      upload_to_testflight(ipa: "./fastlane/builds/* McFastDev.ipa")
+	      upload_to_testflight(ipa: "./fastlane/builds/McFastDev.ipa")
 	end
 
 end
