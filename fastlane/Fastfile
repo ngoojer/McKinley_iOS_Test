@@ -1,18 +1,3 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
-
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
 default_platform(:ios)
 
 platform :ios do
@@ -24,11 +9,6 @@ platform :ios do
  	 upload_to_app_store
 	end
 
- 	 desc "Create app on Apple Developer and App Store Connect sites"
-  	lane :create_app do
-​  	  produce
-  	end
-
      desc "Incrementing Build Number"
       lane :increment_build do
            current_build_number = latest_testflight_build_number(version: "1.0")
@@ -37,6 +17,11 @@ platform :ios do
            )
       end
 
+	desc "crete application"
+	lane :create_app do
+	  produce
+	end
+
 	desc "Build application"
 	lane :build do
 	  build_app
@@ -44,8 +29,7 @@ platform :ios do
 
 	desc "Push a new beta build to TestFlight"
 	lane :beta do
-	      upload_to_testflight(ipa: "./fastlane/builds/McFastDev.ipa")
+	      upload_to_testflight(ipa: "./fastlane/builds/*.ipa")
 	end
 
 end
-
